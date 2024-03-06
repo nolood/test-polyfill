@@ -9,6 +9,7 @@ const Client = () => {
 
   return (
     <div>
+      KEKEKKEKEKK
       <button onClick={() => setKek((prev) => [Math.random() * 100, ...prev])}>Add kek</button>
       <div>
         {kek.at(0)}
